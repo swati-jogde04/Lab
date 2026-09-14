@@ -42,7 +42,7 @@ public class AddTest {
     @FindBy(name="code")
     WebElement testcode;
 
-    @FindBy(name="name")
+    @FindBy(xpath="//input[@placeholder='e.g. Complete Blood Count']")
     WebElement name;
 
     @FindBy(name = "b2cPrice")
@@ -222,13 +222,7 @@ public class AddTest {
 
     public void selectTimeUnit(String unitName) {
 
-        /*
-         * DO NOT USE:
-         * timebox.clear();
-         *
-         * timebox is a button/combobox.
-         */
-
+        
         WebElement dropdown = wait.until(
                 ExpectedConditions.elementToBeClickable(timebox)
         );

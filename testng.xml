@@ -4,13 +4,11 @@
 <listeners>
 <listener class-name = "utilities.ExtentListenerClass"/>
 </listeners>clear
-  <test thread-count="5" name="LoginTest">
+  <test thread-count="5" name="Patient Test">
     <classes>
-
       <class name="testcases.TC_AddTest"/>
       <class name="testcases.TC_AddPanel"/>
-    
-      
+      <class name="testcases.TC_AddPatient"/>  
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

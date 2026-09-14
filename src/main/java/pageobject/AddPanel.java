@@ -24,17 +24,17 @@ public class AddPanel {
 	    this.driver = driver;
 	    PageFactory.initElements(driver, this);
 	    this.wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		
+
 
 	}
 
 	// Locators
 	
-    @FindBy(name="code")
-    WebElement panelCode;
+    @FindBy(xpath="//input[@placeholder='e.g. LFT-PANEL']")
+   private WebElement panelCode;
 
     @FindBy(css = "input[name='name']")
-    WebElement panelName;
+   private  WebElement panelName;
 
 	@FindBy(name = "b2cPrice")
 	private WebElement pB2cPrice;
