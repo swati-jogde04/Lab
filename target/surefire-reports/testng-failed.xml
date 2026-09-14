@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [lab-automation test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utilities.ExtentListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="LoginTest(failed)" verbose="0">
+    <classes>
+      <class name="testcases.TC_AddPanel">
+        <methods>
+          <include name="addPanel"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.TC_AddPanel -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [lab-automation test Suite] -->
