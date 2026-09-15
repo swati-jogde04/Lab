@@ -7,7 +7,7 @@ public class TC_AddPanel extends BaseClass{
 
     
 	@Test
-	public void addPanel() throws InterruptedException {
+	public void TC_addPanel() throws InterruptedException {
 		
 		AddPanel ad = new AddPanel(driver);
 		Thread.sleep(1000);;

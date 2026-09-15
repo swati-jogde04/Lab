@@ -113,5 +113,26 @@ public class ConfigReader {
 	    public String getPanelDescrip() {
 	    	return pro.getProperty("Desc");
 	    }
+		//AddPatient
+		public String getPatientFName(){
+			return pro.getProperty("FirstName");
+		}
+		public String getPatientLName(){
+			return pro.getProperty("LastName");
+		}
+		public String getPatientAge(){
+			return pro.getProperty("Age");
+		}
+	
+		public String getPatientPhone(){
+			return pro.getProperty("phone");
+		}
+		public String getPatientEmail(){
+			return pro.getProperty("PEmail");
+		}
+		public String getPatientAddress(){
+			return pro.getProperty("Address");
+		}
+
 
 }

@@ -7,7 +7,7 @@ public class TC_Login extends BaseClass {
 
     
 	@Test
-	public void loginTest() {
+	public void TC_loginTest() {
 
 		
 		        LoginPage lm = new LoginPage(driver);

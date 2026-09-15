@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class TC_AddTest extends BaseClass {
 
     @Test
-	public void Add_Test() throws InterruptedException {
+	public void TC_addTest() throws InterruptedException {
 		
 		  AddTest add = new AddTest(driver);
 		  

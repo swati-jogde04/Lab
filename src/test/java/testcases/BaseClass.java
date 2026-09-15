@@ -43,6 +43,13 @@ public class BaseClass {
    String PMrPri =config.getPanelMrpPr();
    String decrip = config.getPanelDescrip();
 
+   //AddPatient 
+   String Fname = config.getPatientFName();
+   String Lname =config.getPatientLName();
+   String age = config.getPatientAge();
+   String Phone = config.getPatientPhone();
+   String PEmail = config.getPatientEmail();
+   String addres = config.getPatientAddress();
     
     
     public static WebDriver driver;

@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name="LoginTest(failed)" verbose="0">
     <classes>
-      <class name="testcases.TC_AddPanel">
+      <class name="testcases.TC_AddPatient">
         <methods>
-          <include name="addPanel"/>
+          <include name="TC_addPatient"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- testcases.TC_AddPanel -->
+      </class> <!-- testcases.TC_AddPatient -->
     </classes>
   </test> <!-- LoginTest(failed) -->
 </suite> <!-- Failed suite [lab-automation test Suite] -->
